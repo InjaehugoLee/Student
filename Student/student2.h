@@ -15,7 +15,7 @@ private:
 public:
     Student();
     Student(string _name="", string _snumber = "1234",
-        string _major = "ÇÑ±¹ÇĞ", int _birth = 0,
+        string _major = "Ã‡Ã‘Â±Â¹Ã‡Ã", int _birth = 0,
         int _sex = MALE, int _grade = 0);
     Student(string _name, string _snumber, int _grade)
     {
@@ -24,7 +24,7 @@ public:
         grade = _grade;
     };
 
-    ~Student() {};
+    ~Student() {}
   
     int getGrade() { return grade; }
     string getName() { return name; }
