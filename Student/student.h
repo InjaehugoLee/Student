@@ -22,7 +22,7 @@ public:
 		grade = 0;
 
 	};
-	~Student() {};
+	~Student() {}
 	void setData(string name, string snumber, string major, int birth, int sex, int grade) {
 		this->name = name;
 		this->snumber = snumber;
